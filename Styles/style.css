@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../Images/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 10vh;
+    background-position-y: 20vh;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+.navBar{
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    padding: 10px;
+    position: fixed;
+    justify-content: space-around;
+    background-color:white;
+}
+.mainText{
+    padding: 5px;
+    font-weight: bold;
+    font-size:30px;
+    color: #c72092;
+    cursor: pointer;
+    position: relative;
+    text-decoration:underline;
+}
+.mainText span{
+    color: #6c14d0;
+    text-decoration:none;
+}
+.link ul{
+    list-style: none;
+}
+.link ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    
+}
+.link ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.link ul li a:hover{
+    color:red;
+}
+.iconList a i{
+    width: 50px;
+    color:color-mix(in srgb-linear, red 100%, yellow 20%);
+}
+.iconList a i:hover{
+    color:red;
+}
+.mainBody{
+    padding-top: 30vh;
+    padding-left:10vh;
+}
+.titleText{
+    font-weight: bold;
+    font-size:60px;
+    color: #c72092;
+}
+.otherText{
+    font-weight: bold;
+    font-size:20px;
+    color: black;
+    padding-top:10vh;
+}
+.mainImage{
+    width: 500px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 30vh;
+    max-width: 100%;
+}
+.btn1{
+    background: linear-gradient(to right,#c72092 , #6c14d0);
+    border:none;
+    padding:10px;
+    width:150px;
+    margin-top:10vh;
+    border-radius:30px;
+}
+.btn1 a{
+    color:white;
+    text-decoration: none;
+}
+.productPageTitle{
+    text-align:center;
+    margin-top:15vh;
+    font-weight: bold;
+    font-size:60px;
+    color: #c72092;
+}
+#productsRow1{
+    text-align:center;
+    font-weight:bold;
+    box-shadow: 0 0 8px #6c14d0;
+    border-radius: 5px;
+    padding:10px;
+}
+#productsRow1 img{
+    width:150px;
+}
+.btn{
+    background: linear-gradient(to right,#c72092 , #6c14d0);
+    border:none;
+    padding:10px;
+    width:150px;
+    border-radius:30px;
+}
+.btn a{
+    color:white;
+    text-decoration: none;
+}
+.row{
+    padding:15px;
+}
+#reviewRow1{
+    text-align:center;
+}
+#reviewRow1 img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+.name{
+    font-weight:bold;
+    padding-top:20px;
+    padding-bottom:0px;
+}
+#servicePage{
+    background-image:url(../Images/loging_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position-x: -120vh;
+    background-position-y: 40vh;
+
+}
+#serviceRow1{
+    text-align:center;
+}
+.serviceIcon{
+    font-size: 60px;
+    color: orange;
+    margin: 20px 0;
+    cursor: pointer;
+}
+#serviceRow1 h3{
+    font-weight:bold;
+}
+.loginForm{
+    padding-top:30vh;
+
+}
+.loginForm input{
+    border:none;
+    background:none;
+}
+.loginForm h6{
+    margin-top:30px;
+    font-weight:bold;
+}
+.user{
+    padding:10px;
+    border: 2px solid #6c14d0;
+    border-radius: 5px;
+    width:350px;
+}
+.password{
+    padding:10px;
+    border: 2px solid #6c14d0;
+    border-radius: 5px;
+    width:350px;
+}
+.frogetPassword{
+    align-items:right;
+    margin-top:20px;
+    text-align:right;
+}
+.frogetPassword a{
+    text-decoration:none;
+    color:black;
+    
+}
+#loginButton{
+    margin-top:20px;
+    color:white;
+    width:350px;
+    background: linear-gradient(to right,#c72092 , #6c14d0);
+    border:none;
+    padding:10px;
+    border-radius:10px;
+}
+#loginIcon{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#loginIcon a img{
+    width:50px;
+    padding-right:15px;
+}
+.Images img{
+    width:150px;
+    margin:5px;
+    border:2px solid #6c14d0;
+}
+#imageView{
+    width:100%;
+}
+.footerMainText{
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+    color:blue;
+}
+#details{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin:10px;
+}
+#details1{
+    color: black;
+    text-decoration: none;
+    margin:15px;
+    display:flex;
+    justify-content:center;
+    
+}
